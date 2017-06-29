@@ -1,3 +1,8 @@
-body {
-
+body{
+  background-color: lightblue;
+}
+div:nth-child(1n) { background: blue; } div:nth-child(2n) { background: darkblue; } div:nth-child(3n) { background: orange; }
+div{
+  height: 50px;
+  width: 100%;
 }

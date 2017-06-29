@@ -8,15 +8,20 @@
   <title>Document</title>
 </head>
 <body>
-   <button onClick="document.body.style.backgroundColor='darkblue'">R</button>
-   <button onClick="document.body.style.backgroundColor='orange'">B</button>
-   <button onClick="document.body.style.backgroundColor='darkorange'">M</button>
+   <!-- <exo1> -->
+   <button onClick="document.body.style.backgroundColor='blue'">R</button>
+   <button onClick="document.body.style.backgroundColor='darkblue'">B</button>
+   <button onClick="document.body.style.backgroundColor='orange'">M</button><br />
+        <!-- </exo1> -->
    <script type="text/javascript">
+    // <exo2>
      var name = prompt("What's your name?");
      alert("Your name is " + name);
      console.log("Your name is " + name);
-
+    // </exo2>
    </script>
 
+   Quel est ton nom ? <input type="text" id="myName">
+   <button onClick=console.log(document.getElementById("myName").value)>OK</button>
 </body>
 </html>

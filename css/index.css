@@ -1,8 +1,18 @@
 body{
   background-color: lightblue;
 }
-div:nth-child(1n) { background: blue; } div:nth-child(2n) { background: darkblue; } div:nth-child(3n) { background: orange; }
+/*div:nth-child(1n) { background: blue; } div:nth-child(2n) { background: darkblue; } div:nth-child(3n) { background: orange; }
 div{
   height: 50px;
   width: 100%;
+}*/
+
+div {
+  height: 50px;;
+  width: 50px;
+  margin: 10px;
+  border: 1px solid black;
+  float: left;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px;
 }

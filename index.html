@@ -22,9 +22,28 @@
     // </exo2>
    </script>
 
+   <!-- <exo3> -->
    Quel est ton nom ? <input type="text" id="myName">
-   <button onClick=console.log(document.getElementById("myName").value)>OK</button><br />
+   <button onClick=console.log(document.getElementById("myName").value)>OK</button>
+   <!-- </exo3> -->
 
-   <button onClick=document.body.appendChild(document.createElement('div'))>Div</button>
+   <!-- <exo4> -->
+   <button onClick=document.body.appendChild(document.createElement('div'))>Div</button><br />
+   <!-- </exo4> -->
+
+   <!-- <exo4.2> -->
+   Quel est ton nom ? <input onchange="console.log(this.value)" type="text" id="myName"><br />
+   <!-- </exo4.2> -->
+
+   <!-- <exo5> -->
+
+     <div onClick="this.style.background='red'"></div>
+     <div onClick="this.style.background='green'"></div>
+     <div onClick="this.style.background='blue'"></div>
+     <div onClick="this.style.backgroundColor='yellow'"></div>
+     <div onClick="this.style.backgroundColor='orange'"></div>
+
+   <!-- </exo5> -->
+
 </body>
 </html>
